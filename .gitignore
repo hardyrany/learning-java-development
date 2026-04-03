@@ -18,6 +18,7 @@
 *.txt
 node_modules/
 .env
+*.mhtml
 
 
 # Build directories
