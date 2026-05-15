@@ -1,12 +1,25 @@
-# JDK - Java Development Kit (write $ compile code)
-# JVM  - Java Virtual Machine (runs the code)
-# JRE - Java Runtime Environment (runs compiled code)
+# JDK (Java Development Kit)
+# Used to write, compile, and develop Java programs
+
+# JVM (Java Virtual Machine)
+# Runs Java bytecode on any operating system
+
+# JRE (Java Runtime Environment)
+# Contains JMV + libraries needed to run Java Application
 
 # Check if Java is installed
 java -version
 
-# Check compiler
+# Check Java compiler version
 javac -version
 
-###
-Your Code (.java) → Compiler (javac) → Bytecode(.class) → JVM → Output
+# Java Execution Flow:
+# YourCode.java
+#      ↓
+# javac (Compiler)
+#      ↓
+#YourCode.class (Bytecode)
+#      ↓
+# JVM
+#      ↓
+# Program Output
