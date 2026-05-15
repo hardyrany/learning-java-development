@@ -1,13 +1,14 @@
 public class HelloWorld {
     public static void main(String[] args) {
 
+        // prints text to the console with new line
         System.out.println("Hello, World!");
     }
 
     /*
-     * Key concepts:
-     * public class -> every JAVA file has a class
-     * main -> entry point of every JAVA program
-     * System.out.println -> output/prints to console
+     * KEY CONCEPTS:
+     * public class -> every JAVA program is written inside a class
+     * main -> entry point of every JAVA program (program starts here)
+     * System.out.println -> prints output to the console and moves to the next line
      */
 }
