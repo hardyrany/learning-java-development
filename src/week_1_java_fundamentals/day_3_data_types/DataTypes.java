@@ -4,17 +4,34 @@ public class DataTypes {
     public static void main(String[] args) {
 
         // INTEGER types
-        byte smallNum = 100;    // -128 to 127
+
+        // byte stores very small whole numbers
+        byte smallNum = 100;
+
+        // short stores medium-sized whole numbers
         short mediumNum = 30000;    // -32,768 to 32,767
-        int age = 25;   // -2 billion to 2 billion (most used)
-        long bigNum = 9876543210L;  // very large numbers(add L at end)
+        
+        // int is the most commonly used integer type
+        int age = 25;
+
+        // Long stores very large whole numbers
+        // L is added at the end to tell Java it's a long value
+        long bigNum = 9876543210L;
 
         // DECIMAL Types
-        float pi1 = 3.14f;  // less precise (add f at end)
-        double pi2 = 3.14159265358979;  // more precise (most used)
+
+        // float stores decimal numbers with less precision
+        // f is required at the end
+        float pi1 = 3.14f; 
+
+        // double stores decimal numbers  with more precision
+        double pi2 = 3.14159265358979;
 
         // OTHER Types
-        char letter = 'A';  // single character (use single quotes)
+        // char stores a single character using single quotes
+        char letter = 'A';
+        
+        // boolean stores only true or false
         boolean isJavaFun = true;
 
         System.out.println("smallNum: " + smallNum);
