@@ -3,17 +3,30 @@ package week_2_control_flow.day_1_if_else_statements;
 public class IfElse {
     public static void main(String[] args) {
 
-        // Declare a variable
+        // VARIABLE:
+        // Declared and initialized
+        // stores the person's age
         int age = 18;
 
-        /* if (condition)
-            if = true -> print condition output
-            if = false -> print else condition output
+        /*
+         * IF-ELSE STATEMENT
+         * Used for condition making in Java
+         * if (condition)
+         * -> runs code only if condition is true
+         * else
+         * runs when condition is false
          */
+
+        // CONDITION:
+        // checks if age is greater than or equal to 18 
         if (age >= 18) {
-            System.out.println("Your are an adult ✅");
+            
+            // executes when condition is true
+            System.out.println("Your are an adult!");
         } else {
-            System.out.println("You are a minor ❌");
+
+            // executes when condition is false
+            System.out.println("You are a minor!");
         }
     }
 }
